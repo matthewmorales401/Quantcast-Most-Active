@@ -50,7 +50,7 @@ def mostActiveCookie(inputDate, f):
 #Main function. Check edge cases for invalid arguments. Otherwise, run code as expected.
 def main():
     if len(sys.argv) != 4:
-        print("There should be only 3 arguments")
+        print("There should be only 4 arguments")
     elif sys.argv[2] != "-d":
         print("Third argument must be -d")
     else:
