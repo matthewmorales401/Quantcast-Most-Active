@@ -24,7 +24,7 @@ def mostActiveCookie(inputDate, f):
                 cookieMap[date][cookie] += 1
             else:
                 cookieMap[date][cookie] = 1
-
+    #close file
     f.close()
 
     #Find most active cookie(s) through the hash map values.
