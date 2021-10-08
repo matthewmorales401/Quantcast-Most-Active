@@ -10,6 +10,7 @@ def mostActiveCookie(inputDate, f):
     try:
         f = open(f, "r")
     except:
+        print("Input valid file name and/or date")
         return "Input valid file name and/or date"
 
     #Create hash map that stores counts of cookies through other hash maps.
@@ -43,6 +44,7 @@ def mostActiveCookie(inputDate, f):
             print(i)
         return maximumCookie
     else:
+        print('There are no cookies for that specified date')
         return 'There are no cookies for that specified date'
 
 #Main function. Check edge cases for invalid arguments. Otherwise, run code as expected.
